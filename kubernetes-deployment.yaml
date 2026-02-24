@@ -17,13 +17,6 @@ spec:
           image: us-central1-docker.pkg.dev/golden-index-465218-f7/circleci-mlops/circleci-mlops:latest
           ports:
             - containerPort: 5000
-          resources:
-            requests:
-              memory: "128Mi"
-              cpu: "250m"
-            limits:
-              memory: "256Mi"
-              cpu: "500m"
 
 ---
 apiVersion: v1
