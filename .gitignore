@@ -208,3 +208,5 @@ __marimo__/
 
 # logs
 logs/
+
+gcp-key.json
